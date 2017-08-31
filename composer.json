@@ -1,0 +1,24 @@
+{
+    "name": "doetech/diedump",
+    "description": "This is a var-dumper tool like laravel's dd().",
+    "keywords": ["dd", "diedump", "dump", "var-dumper"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "YangLongFei",
+            "email": "283598349@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "symfony/var-dumper":"*"
+    },
+    "require-dev": {},
+    "autoload":{
+        "files": ["src/functions.php"],
+        "psr-4":{
+            "Doetech\\": "src/Core/"
+        }
+    }
+}
