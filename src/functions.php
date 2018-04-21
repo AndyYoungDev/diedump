@@ -3,7 +3,7 @@
 
 /**
  * This function can read all parameters.
- * Then execute "Core/Dumper->dump()"
+ * Then execute "Dumper->dump()"
  *
  *
  * Created by PhpStorm.
@@ -17,5 +17,4 @@ function dd(...$args)
     foreach ($args as $x) {
         (new \Doetech\Dumper())->dump($x);
     }
-    die(1);
 }
