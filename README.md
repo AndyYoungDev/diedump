@@ -10,7 +10,7 @@ composer require doetech/diedump
 
 Example
 ------------
-diedump($_SERVER);
+diedump($_SERVER);  <br>
 ![image](https://github.com/doetech/diedump/blob/master/example.jpg)
 
 NOTES
