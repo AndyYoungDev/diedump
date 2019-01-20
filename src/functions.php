@@ -1,5 +1,6 @@
 <?php
 
+use Doetech\Dumper;
 
 /**
  * This function can read all parameters.
@@ -12,9 +13,9 @@
  * Time: 15:48
  * @param array $args
  */
-function dd(...$args)
+function diedump(...$args)
 {
     foreach ($args as $x) {
-        (new \Doetech\Dumper())->dump($x);
+        (new Dumper())->dump($x);
     }
 }
